@@ -1,22 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   webserv.hpp                                        :+:      :+:    :+:   */
+/*   Server.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frthierr <frthierr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/27 14:42:10 by frthierr          #+#    #+#             */
-/*   Updated: 2020/10/27 18:12:37 by frthierr         ###   ########.fr       */
+/*   Created: 2020/11/03 15:34:18 by user42            #+#    #+#             */
+/*   Updated: 2020/11/03 15:34:33 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef		WEBSERV_HPP
+#include "Server.hpp"
 
-# define	WEBSERV_HPP
+Server::Server(void) {
+    return ;
+}
 
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <iostream>
-#include <string>
+Server::Server(Server const &src) {
+    return ;
+}
 
-#endif
+Server::~Server(void) {
+    return ;
+}
+
+Server	&Server::operator=(Server const &src) {
+
+}

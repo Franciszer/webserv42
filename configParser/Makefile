@@ -2,11 +2,13 @@
 
 CPP= c++
 FLAGS= -Wall -Wextra -Werror
-SRCS=	srcs/main.cpp
+SRCS=	main.cpp\
+		Config.cpp\
+		Server.cpp	
 
-NAME= webserv
+NAME= serverParser
 OBJS= ${SRCS:.cpp=.o}
-INCLUDE_DIRS = -I . -I includes
+INCLUDE_DIRS = -I . -I fileReader
 
 
 .cpp.o:
